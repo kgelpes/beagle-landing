@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beagle — Your visual library, beautifully organized</title>
+    <meta
+      name="description"
+      content="Beagle is a fast, local-first design-asset manager for macOS. Collect, organize, and instantly find every image that inspires you."
+    />
+    <meta property="og:title" content="Beagle — Your visual library" />
+    <meta
+      property="og:description"
+      content="A fast, local-first design-asset manager for macOS. Collect, organize, and find every image that inspires you."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://beagle.sealkit.dev" />
+    <link rel="canonical" href="https://beagle.sealkit.dev" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%233d8bfd'/%3E%3Crect x='20' y='24' width='30' height='24' rx='5' fill='white'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="aurora" aria-hidden="true">
+      <span class="blob blob-1"></span>
+      <span class="blob blob-2"></span>
+      <span class="blob blob-3"></span>
+      <span class="vignette"></span>
+    </div>
+
+    <header class="nav">
+      <a class="brand" href="#">
+        <span class="mark">
+          <svg viewBox="0 0 64 64" width="28" height="28" aria-hidden="true">
+            <defs>
+              <linearGradient id="g" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#5ea0ff" />
+                <stop offset="1" stop-color="#2f7bf6" />
+              </linearGradient>
+            </defs>
+            <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#g)" />
+            <rect x="16" y="14" width="30" height="24" rx="5" fill="#ffffff" fill-opacity="0.35" />
+            <rect x="20" y="24" width="30" height="24" rx="5" fill="#fff" />
+            <circle cx="28" cy="32" r="3.2" fill="#2f7bf6" />
+          </svg>
+        </span>
+        <span>Beagle</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#download">Download</a>
+        <a class="ghost-btn" href="__DOWNLOAD_URL__">Get Beagle</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <span class="badge">
+          <span class="dot"></span> Now available for macOS
+        </span>
+        <h1>Your visual library,<br /><span class="grad-text">beautifully organized.</span></h1>
+        <p class="lede">
+          Beagle is a fast, local-first design-asset manager. Collect the images that inspire you,
+          organize them your way, and find any of them in an instant.
+        </p>
+        <div class="cta-row" id="download">
+          <a class="btn-primary" href="__DOWNLOAD_URL__">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 3v10.6l3.3-3.3 1.4 1.4L12 17.4l-4.7-5.7 1.4-1.4L12 13.6V3h0zM5 19h14v2H5z" />
+            </svg>
+            Download for Mac
+          </a>
+          <span class="cta-meta">Free · Apple Silicon &amp; Intel · <span id="ver">__VERSION__</span></span>
+        </div>
+
+        <div class="shot-frame">
+          <div class="shot-bar">
+            <span class="tl red"></span><span class="tl yellow"></span><span class="tl green"></span>
+            <span class="shot-title">Beagle</span>
+          </div>
+          <img
+            src="/assets/screenshot.png"
+            alt="Beagle app — three-pane library with masonry grid and inspector"
+            loading="lazy"
+          />
+        </div>
+      </section>
+
+      <section class="features" id="features">
+        <h2>Everything you need to run a reference library</h2>
+        <div class="grid">
+          <article class="card">
+            <div class="ico ico-blue">🖼️</div>
+            <h3>Drag-and-drop import</h3>
+            <p>Drop images straight from Finder. Beagle copies them in, dedupes, and builds thumbnails.</p>
+          </article>
+          <article class="card">
+            <div class="ico ico-violet">🗂️</div>
+            <h3>Folders, tags &amp; ratings</h3>
+            <p>Nested colored folders, smart folders, tags, and star ratings — organize however you think.</p>
+          </article>
+          <article class="card">
+            <div class="ico ico-pink">🎨</div>
+            <h3>Search by color</h3>
+            <p>Beagle extracts a palette from every image so you can filter your whole library by color.</p>
+          </article>
+          <article class="card">
+            <div class="ico ico-green">🔒</div>
+            <h3>Local-first &amp; private</h3>
+            <p>Your images live in a local library folder on your Mac. Nothing is ever uploaded.</p>
+          </article>
+          <article class="card">
+            <div class="ico ico-amber">⚡</div>
+            <h3>Fast at any size</h3>
+            <p>A virtualized masonry grid and SQLite catalog keep thousands of assets instant.</p>
+          </article>
+          <article class="card">
+            <div class="ico ico-teal">🔄</div>
+            <h3>Auto-updates</h3>
+            <p>Beagle keeps itself up to date in the background — new versions install on the next launch.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="closing">
+        <div class="closing-card">
+          <h2>Start your collection today</h2>
+          <p>Free to download. Your inspiration, finally in one place.</p>
+          <a class="btn-primary lg" href="__DOWNLOAD_URL__">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 3v10.6l3.3-3.3 1.4 1.4L12 17.4l-4.7-5.7 1.4-1.4L12 13.6V3h0zM5 19h14v2H5z" />
+            </svg>
+            Download for Mac
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <div class="brand small">
+        <svg viewBox="0 0 64 64" width="20" height="20" aria-hidden="true">
+          <rect x="2" y="2" width="60" height="60" rx="16" fill="#2f7bf6" />
+          <rect x="20" y="24" width="30" height="24" rx="5" fill="#fff" />
+        </svg>
+        Beagle
+      </div>
+      <span>© <span id="yr">2026</span> Beagle · A local design-asset manager for macOS</span>
+    </footer>
+
+    <script>
+      document.getElementById('yr').textContent = new Date().getFullYear()
+    </script>
+  </body>
+</html>
